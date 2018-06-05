@@ -2,7 +2,7 @@
 def mycollect(array)
   i = 0
   collection = []
-  while i < array.length
+  while i < array.size
   block_given?
   collection << yield(array[i])
     i += 1
